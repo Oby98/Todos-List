@@ -121,13 +121,13 @@ const App = () => {
           {!todo?.completed && (
             <TouchableOpacity onPress={() => markToDoComplete(todo?.id)}>
               <Text style={{ fontSize: 20 }}>
-                ✅ {/*was suppose to use vector icons but then thought to do it simply but it's not good practice though */}
+                 {/*was suppose to use vector icons but then thought to do it simply but it's not good practice though */}
               </Text>
             </TouchableOpacity>
           )}
           <TouchableOpacity>
             <Text style={{ fontSize: 20 }} onPress={() => deleteToDo(todo?.id)}>
-              🗑
+              
             </Text>
           </TouchableOpacity>
         </View>
